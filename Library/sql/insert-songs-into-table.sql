@@ -6,5 +6,9 @@
 -- Insert INTO Songs (songname, album_id, genre, length) Values ('Above My Head', 4, 'Metalcore', 4.42);
 -- Insert INTO Songs (songname, album_id, genre, length) Values ('Hate Me (Sometimes)', 5,'Pop Punk' , 3.54);
 -- Insert INTO Songs (songname, album_id, genre, length) Values ('Consume', 6, 'Metalcore', 4.12);
-Insert INTO Songs (songname, album_id, genre, length) Values ('Glitter & Gold', 8, 'Blues Rock', 3.25);
-Insert INTO Songs (songname, album_id, genre, length) Values ('Make A Move', 7, 'Alternative Rock', 3.03);
+-- Insert INTO Songs (songname, album_id, genre, length) Values ('Glitter & Gold', 8, 'Blues Rock', 3.25);
+-- Insert INTO Songs (songname, album_id, genre, length) Values ('Make A Move', 7, 'Alternative Rock', 3.03);
+-- Insert INTO Songs (songname, album_id, genre, length) Values ('Iodine', 7, 'Alternative Rock', 2.32);
+-- Insert INTO Songs (songname, album_id, genre, length) Values ('Theater', 7, 'Alternative Rock', 2.42);
+-- Insert INTO Songs (songname, album_id, genre, length) Values ('Masochist', 4, 'Metalcore', 4.08);
+-- Insert INTO Songs (songname, album_id, genre, length) Values ('Creatures of Habit', 4, 'Metalcore', 4.20);

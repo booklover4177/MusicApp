@@ -1,6 +1,6 @@
--- Select * from artists;
--- Select * from Albums;
--- Select * from Songs;
+Select * from artists;
+Select * from Albums;
+Select * from Songs;
 
 --Get all songs longer than 3 min
 -- SELECT *
