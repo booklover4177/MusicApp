@@ -21,12 +21,23 @@
 -- WHERE a.name='Polaris';
 
 --find total number of songs by artist
-Select count(s.id) AS Total_Songs, a.name
-From Songs s
-Join Albums al on al.id=s.album_id
-Join artists a on a.id=al.artists_id
-Group BY a.id
-ORDER BY Total_Songs;
+-- Select count(s.id) AS Total_Songs, a.name
+-- From Songs s
+-- Join Albums al on al.id=s.album_id
+-- Join artists a on a.id=al.artists_id
+-- Group BY a.id
+-- ORDER BY Total_Songs;
 
+-- --find songs of a certain genre
+-- SELECT Songs.songname, artists.name, Albums.albumname, Songs.genre, Songs.length
+-- FROM Songs
+-- JOIN Albums ON Albums.id=Songs.album_id
+-- JOIN Artists ON artists.id=Albums.artists_id
+-- WHERE genre='Rock';
 
-
+-- --find number of songs by album
+-- SELECT count(Songs.id) AS Total_Songs, Albums.albumname
+-- FROM Songs
+-- JOIN Albums ON Albums.id = Songs.album_id
+-- GROUP BY Albums.albumname
+-- ORDER BY Total_Songs;
